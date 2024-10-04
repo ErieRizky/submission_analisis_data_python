@@ -5,8 +5,6 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-all_df.to_csv("all_data.csv", index=False)
-
 #create_daily_orders_df() digunakan untuk menyiapkan daily_orders_df
 def create_daily_orders_df(df):
     daily_orders_df = df.resample(rule='D', on='order_date').agg({
