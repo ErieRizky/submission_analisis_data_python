@@ -90,6 +90,7 @@ with st.sidebar:
         max_value=max_date,
         value=[min_date, max_date]
     )
+    
 main_df = all_df[(all_df["order_date"] >= str(start_date)) & 
                 (all_df["order_date"] <= str(end_date))]
 daily_orders_df = create_daily_orders_df(main_df)
