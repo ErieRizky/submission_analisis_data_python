@@ -248,4 +248,4 @@ ax[2].tick_params(axis='x', labelsize=35)
  
 st.pyplot(fig)
  
-st.caption('Copyright (c) Dicoding 2023')
+st.caption('Erie Rizky Pratama')
