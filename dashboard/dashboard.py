@@ -249,4 +249,3 @@ ax[2].tick_params(axis='x', labelsize=35)
 st.pyplot(fig)
  
 st.caption('Erie Rizky Pratama')
-all_df.to_csv("all_data.csv", index=False)
