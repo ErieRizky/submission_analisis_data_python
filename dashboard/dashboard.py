@@ -67,7 +67,6 @@ def create_rfm_df(df):
     rfm_df.drop("max_order_timestamp", axis=1, inplace=True)
     
     return rfm_df
-
 all_df = pd.read_csv("all_data.csv")
 
 datetime_columns = ["order_date", "delivery_date"]
@@ -90,10 +89,8 @@ with st.sidebar:
         max_value=max_date,
         value=[min_date, max_date]
     )
-    
 main_df = all_df[(all_df["order_date"] >= str(start_date)) & 
                 (all_df["order_date"] <= str(end_date))]
-
 daily_orders_df = create_daily_orders_df(main_df)
 sum_order_items_df = create_sum_order_items_df(main_df)
 bygender_df = create_bygender_df(main_df)
