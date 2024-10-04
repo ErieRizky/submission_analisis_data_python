@@ -69,7 +69,7 @@ def create_rfm_df(df):
     return rfm_df
     
 datetime_columns = ["order_date", "delivery_date"]
-all_df = pd.read_csv('https://raw.githubusercontent.com/miqbaljaffar/Submission-Analisis-Data/main/Dashboard/all_data.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/ErieRizky/submission_analisis_data_python/refs/heads/main/dashboard/all_data.csv')
 all_df.sort_values(by="order_date", inplace=True)
 all_df.reset_index(inplace=True)
  
