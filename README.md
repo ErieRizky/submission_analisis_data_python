@@ -4,9 +4,8 @@
 E-Commerce Public Dataset = https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view
 ## Setup environment
 ```
-conda create --name main-ds python=3.9
 conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+pip install streamlit babel
 ```
 
 ## Run steamlit app
@@ -14,3 +13,7 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 streamlit run dashboard.py
 ```
 
+## Aksess Streamlit
+```
+https://evnwykyheaqdy4cganuzsu.streamlit.app/
+```
