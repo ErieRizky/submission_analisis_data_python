@@ -6,32 +6,18 @@ E-Commerce Public Dataset = https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1
 ## Setup environment
 Untuk menjalankan proyek ini di Visual Studio Code dan Streamlit, ikuti langkah-langkah berikut:
 
-1. **Aktifkan Environment Conda**
-
-   Pastikan environment Conda yang sesuai telah diaktifkan:
-   ```bash
-   conda activate main-ds
-   ```
-
-2. **Instal Paket yang Diperlukan**
-
-   Instal paket-paket Python yang dibutuhkan untuk analisis data:
-   ```bash
-   conda install numpy pandas matplotlib
-   ```
-
-3. **Instal Streamlit**
+1. **Instal Streamlit**
    
    Pastikan Streamlit sudah terinstal. Jika belum, instal Streamlit menggunakan pip:
    ```bash
-   pip install streamlit
+   !pip install streamlit -q
    ```
-4. **Jalankan Streamlit App**
+2. **Jalankan Streamlit App**
    
    Pindah ke direktori Dashboard dan jalankan aplikasi Streamlit:
    ```bash
-   streamlit run dashboard.py
-   ```
+   !wget -q -O - ipv4.icanhazip.com
+   !streamlit run app.py & npx localtunnel --port 8501
 
 ## Aksess Streamlit
 ```
