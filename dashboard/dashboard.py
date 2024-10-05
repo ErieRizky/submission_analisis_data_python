@@ -98,7 +98,7 @@ byage_df = create_byage_df(main_df)
 bystate_df = create_bystate_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
-st.header('Dicoding Collection Dashboard :sparkles:')
+st.header('Shopify Collection Dashboard :sparkles:')
 
 st.subheader('Daily Orders')
  
