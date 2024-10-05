@@ -17,7 +17,7 @@ Untuk menjalankan proyek ini di Visual Studio Code dan Streamlit, ikuti langkah-
    Pindah ke direktori Dashboard dan jalankan aplikasi Streamlit:
    ```bash
    !wget -q -O - ipv4.icanhazip.com
-   !streamlit run app.py & npx localtunnel --port 8501
+   !streamlit run dashboad.py & npx localtunnel --port 8501
 
 Untuk lebih lengkapnya bisa cek link berikut = https://youtu.be/ZZsyxIWdCko?si=if4L6iEWohqP6pi2
 ## Aksess Streamlit
