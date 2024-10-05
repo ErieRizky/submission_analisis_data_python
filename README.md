@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# Shopify Collection Dashboard ✨
 
 # Sumber Data
 E-Commerce Public Dataset = https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view
