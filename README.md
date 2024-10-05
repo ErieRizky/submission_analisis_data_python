@@ -19,6 +19,7 @@ Untuk menjalankan proyek ini di Visual Studio Code dan Streamlit, ikuti langkah-
    !wget -q -O - ipv4.icanhazip.com
    !streamlit run app.py & npx localtunnel --port 8501
 
+Untuk lebih lengkapnya bisa cek link berikut = https://youtu.be/ZZsyxIWdCko?si=if4L6iEWohqP6pi2
 ## Aksess Streamlit
 ```
 https://9mxuiex8vaprmss4tcbbun.streamlit.app/
